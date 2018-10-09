@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="x_78226_ppm_table" label="Project Portfolio" max_length="40" name="x_78226_ppm_project_portfolio" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element label="Portfolio Manager" max_length="32" name="u_portfolio_manager" reference="sys_user" type="reference"/>
+    </element>
+</database>
