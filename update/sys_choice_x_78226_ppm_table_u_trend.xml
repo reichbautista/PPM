@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_trend" table="x_78226_ppm_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trend</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Up</label>
+            <language>en</language>
+            <name>x_78226_ppm_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-10 17:42:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1fac884adb0123008c82324d7c96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-10 17:42:10</sys_updated_on>
+            <value>Up</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trend</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Middle</label>
+            <language>en</language>
+            <name>x_78226_ppm_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-10 17:42:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9fac884adb0123008c82324d7c96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-10 17:42:10</sys_updated_on>
+            <value>Middle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_trend</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Down</label>
+            <language>en</language>
+            <name>x_78226_ppm_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-10 17:42:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fac884adb0123008c82324d7c96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-10 17:42:10</sys_updated_on>
+            <value>Down</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_trend</element>
+            <name>x_78226_ppm_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-10 17:42:10</sys_created_on>
+            <sys_id>5bac884adb0123008c82324d7c96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_trend</sys_name>
+            <sys_package display_value="PPM" source="x_78226_ppm">1c0cadd1db012300ed1ffbef29961942</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PPM">1c0cadd1db012300ed1ffbef29961942</sys_scope>
+            <sys_update_name>sys_choice_x_78226_ppm_table_u_trend</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-10 17:42:10</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>u_status</element>
+        <name>x_78226_ppm_table</name>
+        <style>background-color:yellow;&#13;
+font-weight: bold;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-10 17:28:56</sys_created_on>
+        <sys_id>95a904c6db0123008c82324d7c961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_78226_ppm_table</sys_name>
+        <sys_package display_value="PPM" source="x_78226_ppm">1c0cadd1db012300ed1ffbef29961942</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PPM">1c0cadd1db012300ed1ffbef29961942</sys_scope>
+        <sys_update_name>sys_ui_style_95a904c6db0123008c82324d7c961923</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-10 17:28:56</sys_updated_on>
+        <value>Yellow</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=95a904c6db0123008c82324d7c961923"/>
+</record_update>
