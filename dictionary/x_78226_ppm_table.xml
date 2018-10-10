@@ -3,5 +3,12 @@
     <element attributes="live_feed=true" extends="task" label="IT PPM Projects" max_length="40" name="x_78226_ppm_table" type="collection">
         <element label="Portfolio" max_length="32" name="u_portfolio" reference="x_78226_ppm_project_portfolio" type="reference"/>
         <element label="Project Manager" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element label="Green" sequence="0" value="Green"/>
+                <element label="Yellow" sequence="1" value="Yellow"/>
+                <element label="Red" sequence="2" value="Red"/>
+            </choice>
+        </element>
     </element>
 </database>

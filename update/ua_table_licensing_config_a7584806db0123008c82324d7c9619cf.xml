@@ -5,22 +5,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_78226_ppm_project_portfolio</name>
+        <name>x_78226_ppm_table</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-10-09 15:37:20</sys_created_on>
-        <sys_id>7c866e65db012300ed1ffbef299619f9</sys_id>
+        <sys_created_on>2018-10-08 16:43:15</sys_created_on>
+        <sys_id>a7584806db0123008c82324d7c9619cf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_78226_ppm_project_portfolio</sys_name>
+        <sys_name>x_78226_ppm_table</sys_name>
         <sys_package display_value="PPM" source="x_78226_ppm">1c0cadd1db012300ed1ffbef29961942</sys_package>
         <sys_policy/>
         <sys_scope display_value="PPM">1c0cadd1db012300ed1ffbef29961942</sys_scope>
-        <sys_update_name>ua_table_licensing_config_7c866e65db012300ed1ffbef299619f9</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_a7584806db0123008c82324d7c9619cf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-09 15:37:20</sys_updated_on>
+        <sys_updated_on>2018-10-08 16:43:15</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
