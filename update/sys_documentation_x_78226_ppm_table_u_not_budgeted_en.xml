@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_not_budgeted" label="Anything not budgeted" language="en" table="x_78226_ppm_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_not_budgeted</element>
+            <help/>
+            <hint/>
+            <label>Anything not budgeted</label>
+            <language>en</language>
+            <name>x_78226_ppm_table</name>
+            <plural>Anything not budgeted</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-12 18:18:58</sys_created_on>
+            <sys_id>31486ae6db012300ed1ffbef299619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Anything not budgeted</sys_name>
+            <sys_package display_value="PPM" source="x_78226_ppm">1c0cadd1db012300ed1ffbef29961942</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PPM">1c0cadd1db012300ed1ffbef29961942</sys_scope>
+            <sys_update_name>sys_documentation_x_78226_ppm_table_u_not_budgeted_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-12 18:18:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

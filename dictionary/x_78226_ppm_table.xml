@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element attributes="live_feed=true" extends="task" label="IT PPM Projects" max_length="40" name="x_78226_ppm_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Fitbit Strategic Alignment" max_length="1000" name="fitbit_strategic_alignment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Organizational Strategic Alignment" max_length="1000" name="organizational_strategic_alignment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Impact if not done" max_length="4000" name="u_business_impact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Requirements" max_length="4000" name="u_business_requirements" type="string"/>
+        <element label="Business Sponsor" max_length="32" name="u_business_sponsor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Substantial amount of change" max_length="40" name="u_change" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Procurement of professional service needed" max_length="40" name="u_choice_15" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Requested Delivery Date" max_length="40" name="u_delivery_date" type="glide_date"/>
+        <element label="Dependencies" max_length="32" name="u_dependencies" reference="x_78226_ppm_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Expected Benefit and Business Value" max_length="4000" name="u_expected" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Funding Secured" max_length="40" name="u_funding" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Importance of Project" max_length="40" name="u_importance" type="string">
+            <choice>
+                <element label="High" sequence="0" value="High"/>
+                <element label="Medium" sequence="1" value="Medium"/>
+                <element label="Low" sequence="2" value="Low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Integration with other system expected" max_length="40" name="u_integration" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="In Scope" max_length="4000" name="u_in_scope" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Procurement of IT Solution" max_length="40" name="u_it_solution" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Anything not budgeted" max_length="40" name="u_not_budgeted" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Out of Scope" max_length="4000" name="u_out_of_scope" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Personal or Sensitive Information" max_length="40" name="u_persona_information" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
         <element label="Portfolio" max_length="32" name="u_portfolio" reference="x_78226_ppm_project_portfolio" type="reference"/>
         <element label="Project Manager" max_length="32" name="u_project_manager" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="string">
@@ -10,6 +69,13 @@
                 <element label="Red" sequence="2" value="Red"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Success Criteria" max_length="4000" name="u_success" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Training Required" max_length="40" name="u_training" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Trend" max_length="40" name="u_trend" type="string">
             <choice>
                 <element label="Up" sequence="0" value="Up"/>
@@ -17,5 +83,6 @@
                 <element label="Down" sequence="2" value="Down"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Current work around" max_length="4000" name="u_work" type="string"/>
     </element>
 </database>
